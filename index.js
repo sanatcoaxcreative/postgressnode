@@ -12,7 +12,7 @@ try {
 }
 app.get('/', (req, res)=>{
     res.send({
-        hello:'node js with postgres!'
+        hello:'node js with postgre sql!'
     })
 })
 app.listen(process.env.PORT||5000, ()=>{
